@@ -1,0 +1,29 @@
+.mainContainer{
+    background-color: rgb(250, 246, 246);
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    min-height: 100vh;
+}
+
+.mainContent{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px;
+}
+.mainContent h1{
+    text-align: center;
+    font-size: 25px;
+}
+
+.mainContent{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mainContent input, .mainContent select, .mainContent textarea{
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 5px;
+}

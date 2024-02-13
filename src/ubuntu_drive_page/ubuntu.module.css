@@ -1,0 +1,108 @@
+.ubuntuContent{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.imageContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imageContainer img{
+    width: 50%;
+
+}
+.contact {
+    width: 100%;
+    text-align: center;
+}
+.ubuntuContent > p{
+    padding: 30px;
+    font-size: 22px;
+    color: #F9FAFB;
+}
+.contact h2{
+    font-size: 32px;
+    color: #C7AD76;
+    margin-bottom: 45px;
+}
+.contact div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.contact div h3, .contact div a{
+    display: flex;
+    gap: 10px;
+    font-size: 16px;
+
+}
+
+.contact .contactIcon{
+color: #C7AD76;
+}
+
+
+
+@media screen and (max-width : 825px) {
+    .contact div{
+        display: flex;
+        flex-direction: column;
+    }
+    .ubuntuContent > p{
+        padding: 20px;
+        font-size: 18px;
+        color: #F9FAFB;
+    }
+    .contact h2{
+        font-size: 28px;
+        color: #C7AD76;
+        margin-bottom: 45px;
+    }
+}
+
+
+
+@media screen and (max-width : 420px) {
+    .contact div{
+        display: flex;
+        flex-direction: column;
+    }
+    .contact h2{
+       
+        margin-bottom: 35px;
+    }
+    .ubuntuContent > p{
+        padding: 10px;
+        font-size: 18px;
+        color: #F9FAFB;
+    }
+    .contact h2{
+        font-size: 20px;
+        color: #C7AD76;
+        margin-bottom: 45px;
+    }
+
+    .contact div h3, .contact div a{
+        display: flex;
+        gap: 5px;
+        font-size: 14px;
+    
+    }
+    .contact{
+        padding: 0px 10px;
+    }
+    .contact h2{
+       
+        margin-bottom: 25px;
+    }
+}
+
+

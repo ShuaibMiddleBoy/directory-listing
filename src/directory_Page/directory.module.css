@@ -1,0 +1,236 @@
+.directoryContent{
+    width: 85%;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.directoryContent p{
+    font-size: 22px;
+    line-height: 1.4;
+}
+
+.directoryListingForm{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.directoryListingForm .first{
+    width: 100%;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 80% 20%;
+}
+.directoryListingForm .first > input[type='text']{
+border: 1px solid lightgray;
+
+padding: 10px 20px;
+}
+.directoryListingForm .first > input[type='button']{
+    border: 1px solid #c7ad76;
+    cursor: pointer;
+    background-color: #c7ad76;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+.directoryListingForm .sec{
+    margin-left: auto;
+    display: flex;
+    gap: 5px;
+}
+
+.directoryListingForm .sec > input{
+    margin-left: auto;
+    padding: 5px 30px;
+    background-color: transparent;
+    border: 1px solid #c7ad76;
+    color: #c7ad76;
+    cursor: pointer;
+}
+
+.directoryListingForm .sec > input:nth-child(1){
+    border: none;
+    text-decoration: underline;
+}
+ .directoryCategories{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #7A7A7A;
+    gap: 25px;
+    padding: 0px 30px;
+}
+
+.directoryCategories li a{
+    color: #c7ad76;
+}
+
+.directoryListingLists{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin-top: 20px;
+}
+
+.directoryListingLists .list h3{
+    font-size: 34px;
+    color: #c7ad76;
+}
+.directoryListingLists .list table{
+    margin-top: 10px;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.directoryListingLists .list table tbody{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.directoryListingLists .list table tr{
+    display: flex;
+    font-size: 16px;
+    gap: 20px;
+}
+.directoryListingLists .list .label{
+    color: #1d1d1d;
+    font-weight: bold;
+}
+
+.directoryListingLists .list .value{
+    color: #7A7A7A;
+}
+
+.directoryListingLists .list .value a{
+    color: #c7ad76;
+    font-size: 16px;
+}
+.directoryListingLists .list h3{
+    font-size: 34px;
+    color: #c7ad76;
+    margin: 0;
+
+}
+
+.directoryListingLists .list a{
+    text-decoration: none; 
+}
+
+@media screen  and (max-width:870px) {
+    .directoryContent p{
+        font-size: 19px;
+        line-height: 1.4;
+    }
+    .directoryListingForm .first{
+        width: 100%;
+        display: grid;
+        gap: 5px;
+        grid-template-columns: 70% 20%;
+    }
+    .directoryListingForm .first > input[type='button']{
+       width: 150px;
+    }
+
+
+}
+
+
+
+@media screen and (max-width:520px){
+
+    .directoryContent{
+        width: 90%;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .directoryCategories{
+        grid-template-columns: 1fr;
+        margin: auto;
+    }
+    .directoryListingForm .first > input[type='button']{
+        width: 150px;
+     }
+    
+.directoryListingLists .list h3{
+    font-size: 28px;
+}
+.directoryContent p{
+    font-size: 18px;
+    line-height: 1.4;
+}
+.directoryListingForm .first{
+    width: 100%;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr;
+}
+.directoryListingForm .first > input[type='button']{
+    width: 50%;
+ }
+
+ .directoryListingLists .list table tr{
+    display: flex;
+    font-size: 13px;
+    gap: 20px;
+}
+.directoryListingLists .list a h3{
+    text-decoration: none; 
+    font-size: 18px;
+
+}
+
+.directoryListingLists .list .value a{
+    color: #c7ad76;
+    font-size: 14px;
+    
+}
+
+.directoryListingLists .list table tbody{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+}
+
+@media screen and (max-width:345px){
+
+    .directoryContent p{
+        font-size: 15px;
+        line-height: 1.4;
+    }
+
+    .directoryListingLists .list .value a{
+        color: #c7ad76;
+        font-size: 12px;
+        
+    }
+
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+  }
+  
+  .pagination button {
+    border: 1px solid #c7ad76;
+    cursor: pointer;
+    background-color: #c7ad76;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  
+  .pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }

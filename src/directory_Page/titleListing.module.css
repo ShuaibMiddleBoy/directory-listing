@@ -1,0 +1,207 @@
+.mainContainer{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    background-color: white;
+    width: 90%;
+    margin: 30px auto;
+    padding: 40px;
+}
+.directoryListingLists{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin-top: 20px;
+  }
+  
+  .directoryListingLists .list h3{
+    font-size: 34px;
+    color: #c7ad76;
+  }
+  .directoryListingLists .list table{
+    margin-top: 10px;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .directoryListingLists .list table tbody{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .directoryListingLists .list table tr{
+    display: flex;
+    font-size: 16px;
+    gap: 20px;
+  }
+  .directoryListingLists .list .label{
+    color: #1d1d1d;
+    font-weight: bold;
+  }
+  
+  .directoryListingLists .list .value{
+    color: #7A7A7A;
+  }
+  
+  .directoryListingLists .list .value a{
+    color: #c7ad76;
+    font-size: 16px;
+  }
+  .directoryListingLists .list h3{
+    font-size: 34px;
+    color: #c7ad76;
+    margin: 0;
+  
+  }
+  
+  .directoryListingLists .list a{
+    text-decoration: none; 
+  }
+  
+  
+  .directoryListingLists{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    margin-top: 20px;
+  }
+  
+  .directoryListingLists .list h3{
+    font-size: 34px;
+    color: #c7ad76;
+  }
+  .directoryListingLists .list table{
+    margin-top: 10px;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .directoryListingLists .list table tbody{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .directoryListingLists .list table tr{
+    display: flex;
+    font-size: 16px;
+    gap: 20px;
+  }
+  .directoryListingLists .list .label{
+    color: #1d1d1d;
+    font-weight: bold;
+  }
+  
+  .directoryListingLists .list .value{
+    color: #7A7A7A;
+  }
+  
+  .directoryListingLists .list .value a{
+    color: #c7ad76;
+    font-size: 16px;
+  }
+  .directoryListingLists .list h3{
+    font-size: 34px;
+    color: #c7ad76;
+    margin: 0;
+  
+  }
+  
+  .directoryListingLists .list a{
+    text-decoration: none; 
+  }
+  
+  @media screen  and (max-width:870px) {
+    .directoryContent p{
+        font-size: 19px;
+        line-height: 1.4;
+    }
+    .directoryListingForm .first{
+        width: 100%;
+        display: grid;
+        gap: 5px;
+        grid-template-columns: 70% 20%;
+    }
+    .directoryListingForm .first > input[type='button']{
+       width: 150px;
+    }
+  
+  
+  }
+  
+  
+  
+  @media screen and (max-width:520px){
+  
+    .directoryContent{
+        width: 90%;
+        margin: 20px auto;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .directoryCategories{
+        grid-template-columns: 1fr;
+        margin: auto;
+    }
+    .directoryListingForm .first > input[type='button']{
+        width: 150px;
+     }
+    
+  .directoryListingLists .list h3{
+    font-size: 28px;
+  }
+  .directoryContent p{
+    font-size: 18px;
+    line-height: 1.4;
+  }
+  .directoryListingForm .first{
+    width: 100%;
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 1fr;
+  }
+  .directoryListingForm .first > input[type='button']{
+    width: 50%;
+  }
+  
+  .directoryListingLists .list table tr{
+    display: flex;
+    font-size: 13px;
+    gap: 20px;
+  }
+  .directoryListingLists .list a h3{
+    text-decoration: none; 
+    font-size: 18px;
+  
+  }
+  
+  .directoryListingLists .list .value a{
+    color: #c7ad76;
+    font-size: 14px;
+    
+  }
+  
+  .directoryListingLists .list table tbody{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  }
+  
+  @media screen and (max-width:345px){
+  
+    .directoryContent p{
+        font-size: 15px;
+        line-height: 1.4;
+    }
+  
+    .directoryListingLists .list .value a{
+        color: #c7ad76;
+        font-size: 10px;
+        overflow-wrap: break-word!important;
+        
+    }
+  
+  }

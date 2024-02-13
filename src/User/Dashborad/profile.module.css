@@ -1,0 +1,25 @@
+.mainContainer{
+    background-color: rgb(250, 246, 246);
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    min-height: 100vh;
+}
+
+.mainContent{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px;
+}
+.mainContent h1{
+    text-align: center;
+    font-size: 25px;
+}
+.mainContent table{
+    border-collapse: collapse;
+}
+
+.mainContent table th,.mainContent table td{
+    border: 5px solid lightgray;
+    padding: 20px;
+}

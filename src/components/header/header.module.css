@@ -1,0 +1,21 @@
+.headerContainer{
+    text-align: center;
+}
+.headerContainer h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.headerContainer hr{
+    width: 40%;
+    margin: 35px auto;
+    border-top: 1px solid black;
+}
+
+
+@media screen and (max-width: 1150px) {
+    .headerContainer{
+        display: none;
+    }
+}

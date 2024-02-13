@@ -1,0 +1,71 @@
+.modalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000; }
+
+.mainContainer{
+    background-color: rgb(250, 246, 246);
+    display: grid;
+    grid-template-columns:1fr;
+    width: 50%;
+}
+
+.mainContent{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px;
+}
+.mainContent h1{
+    text-align: center;
+    font-size: 25px;
+}
+
+.mainContent{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mainContent input, .mainContent select, .mainContent textarea{
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.closeButton {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    border: none;
+    background: none;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width:645px) {
+    .mainContainer{
+        width: 80%;
+    }
+  }
+
+  @media screen and (max-width:340px) {
+
+    .mainContent input, .mainContent select, .mainContent textarea{
+        border: 1px solid lightgray;
+        padding: 10px;
+        border-radius: 5px;
+        width: 80%;
+        margin: auto;
+
+    }
+    
+  }

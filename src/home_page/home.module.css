@@ -1,0 +1,41 @@
+
+  .companies{
+    margin-top: -10px;
+    width: 100%;
+    padding: 50px 0;
+    background-color: #000000;
+}
+
+.boxes{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.companies img{
+  width: 100%;
+  border-radius: 2px;
+
+}
+
+.specificCSS{
+  width: 100%;
+  position: absolute;
+  z-index: 999;
+}
+
+.videoContainer{
+  height: auto;
+}
+
+
+@media screen and (max-width: 944px) {
+  .boxes{
+   align-items: center;
+   justify-content: center;
+  }
+}

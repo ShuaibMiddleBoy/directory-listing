@@ -1,0 +1,32 @@
+.mainContainer{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    background: rgb(63, 62, 62);
+}
+ul.ul {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+ul.ul li {
+    list-style: none;
+}
+
+ul.ul a {
+    color: white;
+    text-decoration: none;
+}
+
+.visitSite{
+   margin-top: 20px;
+   margin-left: 20px;
+}
+.visitSite a{
+    color: white;
+    text-decoration: none;
+}
